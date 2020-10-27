@@ -63,6 +63,11 @@ then require axios at top of index.js 'const axios = require('axios')
 npm i dotenv
 refer to files for middleware setup
 
+### Put/Delete
+
+- include "const methodOverride = require('method-override')" in top group
+- include "app.use(methodOverride('\_method'))" in middleware
+
 ## Sequelize
 
 - npm i pg sequelize
