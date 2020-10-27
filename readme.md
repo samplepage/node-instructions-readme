@@ -2,16 +2,16 @@
 
 ## commands
 
-npm install
-npm init: essentially makes a node server; use npm init like git init to intiate a node folder
-npm install express
-npm i express
-touch .gitignore is a way to prevent accumulating packages
-echo "node_modules" >> .gitignore
-put node_modules and .env in the .gitignore file
-ls -a is way to check for hidden files, specifically the .gitignore file
-create your entry point file: touch index.js
-To import a module, use the word require
+- npm install
+- npm init: essentially makes a node server; use npm init like git init to intiate a node folder
+- npm install express
+- npm i express
+- touch .gitignore is a way to prevent accumulating packages
+  echo "node_modules" >> .gitignore
+- put node_modules and .env in the .gitignore file
+- ls -a is way to check for hidden files, specifically the .gitignore file
+- create your entry point file: touch index.js
+- To import a module, use the word require
 
 ## setting up express file
 
